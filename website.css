@@ -1,0 +1,99 @@
+<style>
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.body{
+background-color:#FF5F9F;
+background-image: url("hearts2.avif");
+}
+
+.paragraph{
+color:#CD241C;
+
+text-align:center;
+margin-top:227px;
+
+font-size:25px;
+font-weight:bold;
+font-family: 'Protest Revolution', sans-serif;
+}
+
+.yesButton{
+background-color:black;
+color:#47ff6f;
+border-color:#47ff6f;
+
+border-width:2px;
+border-radius:5px;
+
+padding-left:13px;
+padding-right:13px;
+padding-top:9px;
+padding-bottom:9px;
+
+font-family: 'Poor Story', system-ui;
+font-size:20px;
+font-weight:bold;
+
+cursor:pointer;
+
+transition:box-shadow 0.28s, background-color 0.28s, color 0.28s, border-color 0.28s, padding-left 0.28s, padding-right 0.28s, padding-top 0.28s, padding-bottom 0.28s, font-size 0.28s, border-radius 0.28s; 
+
+margin-left:570px;
+margin-top:30px;
+}
+
+.yesButton:hover{
+box-shadow: 0px 0px 20px #47ff6f;
+background-color:#172a24;
+color:#64ffb0;
+border-color:#64ffb0;
+padding-left:18px;
+padding-right:18px;
+padding-top:11px;
+padding-bottom:11px;
+font-size:25px;
+border-radius:6px;
+}
+
+
+.noButton{
+background-color:black;
+color:#47ff6f;
+border-color:#47ff6f;
+
+border-width:2px;
+border-radius:6px;
+
+padding-left:13px;
+padding-right:13px;
+padding-top:9px;
+padding-bottom:9px;
+width:60px;
+
+font-family: 'Poor Story', system-ui;
+font-size:21px;
+font-weight:bold;
+
+cursor:pointer;
+
+transition:box-shadow 0.28s, background-color 0.28s, color 0.28s, border-color 0.28s, padding-left 0.28s, padding-right 0.28s, padding-top 0.28s, padding-bottom 0.28s, font-size 0.28s, border-radius 0.28s; 
+}
+
+.button{
+    margin-left:1%;
+}
+
+h1{
+    color: darkgreen;
+    margin-top: 20px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+</style>
