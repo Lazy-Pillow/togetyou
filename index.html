@@ -44,6 +44,12 @@ function yes() {
   if (paragraph[x + 1]) {
     x++;
   }
+
+if(x===2){
+let elements=document.getElementById("vdo");
+elements.setAttribute('style','display:inline;');
+}
+
 }
 </script>
 
@@ -79,7 +85,8 @@ var btn_test = document.querySelector('#btn_test');
 //register to call moveElmRand() on mouseenter event to #btn_test
 btn_test.addEventListener('click', function(e){ moveElmRand(e.target);});
 </script>
-
+<p> </p> 
+<video class="vdo" controls muted autoplay loop width="200" src="My Recording_4.mp4" id="vdo">
 </body>
 
 </html>
