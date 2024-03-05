@@ -68,7 +68,7 @@ So Arya, Would You Like To Date Me?
 <button class="yesButton" class="btn btn-success" onclick=yes(); id="btn1">yes</button>
 </div>
 
-<button id='btn_test' class="noButton" class="btn btn-success" onclick=no(); onclick=enableMute(); id="btn2">no</button>
+<button id='btn_test' class="noButton" class="btn btn-success" onclick=no() onclick=enableMute(); id="btn2">no</button>
 
 <script>
 
@@ -85,6 +85,7 @@ var btn_test = document.querySelector('#btn_test');
 //register to call moveElmRand() on mouseenter event to #btn_test
 btn_test.addEventListener('click', function(e){ moveElmRand(e.target);});
 </script>
+ <button onclick=enableMute(); >HELLOW</button>
 <p> </p> 
 <img src="celebrate.gif" alt="cele" id="vdo" class="vdo">
 
